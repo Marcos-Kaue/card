@@ -14,6 +14,7 @@ body{
     background-image: linear-gradient(to bottom right, #3b2794 0%, #3657fa 40%, #9f6bff 60%, #581279 100%);
     background-size: 200% 200%;
     animation: float 6s ease-in-out infinite alternate;
+    overflow: hidden;
 }
 @keyframes float {
     from{background-position: 0 0;}
